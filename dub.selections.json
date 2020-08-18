@@ -1,0 +1,9 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"automem": "0.6.2",
+		"silly": "1.0.2",
+		"test_allocator": "0.3.2",
+		"unit-threaded": "1.0.4"
+	}
+}

@@ -1,0 +1,12 @@
+name "dzyre"
+description "A high-level wrapper around Zyre"
+authors "Harrison Ford"
+copyright "Copyright © 2020, Harrison Ford"
+license "proprietary"
+dependency "silly" version="~>1.0.2"
+dependency "automem" version="~>0.6.2"
+libs "zyre" "czmq"
+configuration "library" {
+	targetType "library"
+	dflags "-dip25" "-dip1000"
+}
